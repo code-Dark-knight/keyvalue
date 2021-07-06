@@ -15,6 +15,7 @@ LIGHTBLUE='\033[1;34m'
 LIGHTPURPLE='\033[1;35m'
 LIGHTCYAN='\033[1;36m'
 WHITE='\033[1;37m'
+#colors^
 image_name="kv-server:latest"
 container_name="key-value-server"
 printf "${YELLOW}At any point to exit from the cli type ${GREEN}ctrl+c${NC} ${YELLOW} to exit from shell ${YELLOW} "

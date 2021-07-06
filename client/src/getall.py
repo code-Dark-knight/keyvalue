@@ -2,7 +2,7 @@ import os
 import argparse
 import requests
 
-
+#code
 
 url="http://localhost:8080/alllist"
 def getall():

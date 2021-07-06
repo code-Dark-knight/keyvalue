@@ -60,7 +60,7 @@ class Datasource(Resource):
             else:
                 item.update(body_data)
                 return body_data , 200
-
+#class
 class Subscribe(Resource):
     def post(self, data):
         subscription_data = data

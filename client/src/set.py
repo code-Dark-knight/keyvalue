@@ -25,7 +25,7 @@ def set(params):
 
 def main():
     usagemsg="usage: set [-h] requires both key and value | ex set {key} {value}"
-    my_parser = argparse.ArgumentParser(description='A Simple KV (key-value) store web service with a subscription feature. As a user, I should be able to perform set(key, val) and get(key)  operations over HTTP and also subscribe to changes happening to any of the keys.',usage=usagemsg)
+    my_parser = argparse.ArgumentParser(description='A Simple KV (key-value) store web service with a subscription feature.',usage=usagemsg)
     my_parser.add_argument('set', action='store', nargs=3,type=str)
     args = my_parser.parse_args()
     if args.set:

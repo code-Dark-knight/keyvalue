@@ -19,7 +19,7 @@ The approach is to use python flask framework to create a CRUD api which can sto
 
 * suball : It will return a list of all the key which has been subscribed. These key will response to any changes done via put.
 
-* put {key} {value} : It's an update command.
+* put {key} {value} : It's an update command. Use this if you need to change the value in a existing key.
 
 * subs {key} : It will set the key in subscription list any changes done to that {key}.
 
@@ -30,3 +30,56 @@ The approach is to use python flask framework to create a CRUD api which can sto
 - Python
 
 - Pip
+
+#HOW to RUN
+
+1.
+
+$ cd into project
+$ bash build.sh
+
+SELECT option 1 if you are running the project for the first time. The output will be similar to this:
+
+```
+ --------------------------------------------------------------------------------------------------------
+ 1 . To Setup Server
+ 2 . To Setup Client
+Enter your choice :
+```
+
+2.
+RUN the script again.
+$ bash build.sh
+Then choose option 2 to run the client.
+
+#How to perform operations in the client
+
+- Setting a Key
+
+[set key value] ---> ex.: set name ashish
+
+
+- updating an existing key
+ [put key updatevalue] ---> put name ashish-sharma
+
+
+- Getting a Key
+
+[get key] ---> ex.: get name
+
+
+- Deleting a Key
+
+[del key] ---> del name
+
+
+- Get all the Key
+
+[get-all key] ---> ex.: getall
+
+
+- Subscribe get for any changes
+
+[subs key] ---> subs name
+
+- To check subscription on key at any given time you can `suball` to get all the keys that you have subscribed.

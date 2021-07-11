@@ -25,11 +25,34 @@ The approach is to use python flask framework to create a CRUD api which can sto
 
 
 # Prerequisite
-- Docker (https://docs.docker.com/get-docker/) must be installed and running. 
+- Docker must be installed and running. 
  
 - Python
 
 - Pip
+
+### Directory Structure
+
+.
+|--Dockerfile
+|--README.md
+|--build.sh
+|--client
+|    |--bin
+|    |    |--kv-client
+|    |
+|    |--src
+|        |--client.py
+|        |--del.py
+|        |--get.py
+|        |--set.py
+|
+|--utility
+      |--code
+      |    |--app.py
+      |--config.ini
+      |--requirements.txt
+
 
 #HOW to RUN
 

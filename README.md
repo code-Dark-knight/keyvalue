@@ -31,46 +31,8 @@ The approach is to use python flask framework to create a CRUD api which can sto
 
 - Pip
 
-### Directory Structure
-(https://github.com/code-Dark-knight/keyvalue/blob/main/utility/Screenshot%202021-07-12%20at%2012.26.00%20AM.png)
-
-.
-|--Dockerfile
-
-|--README.md
-
-|--build.sh
-
-|--client
-
-|    |--bin
-
-|    |    |--kv-client
-
-|    |
-
-|    |--src
-
-|        |--client.py
-
-|        |--del.py
-
-|        |--get.py
-
-|        |--set.py
-
-|
-
-|--utility
-
-      |--code
-      
-      |    |--app.py
-      
-      |--config.ini
-      
-      |--requirements.txt
-
+### Structure
+! [Directory Structure](https://github.com/code-Dark-knight/keyvalue/blob/main/utility/Screenshot%202021-07-12%20at%2012.26.00%20AM.png)
 
 
 #HOW to RUN

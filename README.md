@@ -83,3 +83,8 @@ Then choose option 2 to run the client.
 [subs key] ---> subs name
 
 - To check subscription on key at any given time you can `suball` to get all the keys that you have subscribed.
+
+
+# CI/CD  pipeline using AWS Codebuild, Codepipeline and Codedeploy
+
+buildspec.yaml is the files that builds the Dockerfile and pushed in into ECR(Elastic Container Registry) for secure image storage and it can be pulled for various use-cases. 

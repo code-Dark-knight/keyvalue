@@ -36,6 +36,7 @@ The approach is to use python flask framework to create a CRUD api which can sto
 1.
 
 $ cd into project
+
 $ bash build.sh
 
 SELECT option 1 if you are running the project for the first time. The output will be similar to this:
@@ -49,7 +50,9 @@ Enter your choice :
 
 2.
 RUN the script again.
+
 $ bash build.sh
+
 Then choose option 2 to run the client.
 
 #How to perform operations in the client

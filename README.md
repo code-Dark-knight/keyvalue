@@ -1,4 +1,4 @@
-# key-value Service
+# key-value Store
 
 The approach is to use python flask framework to create a CRUD api which can store data in key value form in memory and similarly design a client in python which can fetch the values from the given api.
 

@@ -67,7 +67,7 @@ Then choose option 2 to run the client.
 
 
 - updating an existing key
-- 
+
  [put key updatevalue] ---> put name ashish-sharma
 
 

@@ -83,7 +83,7 @@ Then choose option 2 to run the client.
 
 - Get all the Key
 
-[get-all key] ---> ex.: getall
+[getall key] ---> ex.: getall
 
 
 - Subscribe get for any changes
